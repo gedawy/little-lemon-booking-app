@@ -1,4 +1,4 @@
-# Gedawy's project for meta's frontend cerficate
+# Gedawy's project for meta's frontend certificate
 
 # Getting Started with Create React App
 
