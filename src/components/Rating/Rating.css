@@ -1,0 +1,9 @@
+.star {
+  color: #f4ce14;
+}
+
+@media (max-width: 480px) {
+  .star {
+    font-size: 2rem;
+  }
+}

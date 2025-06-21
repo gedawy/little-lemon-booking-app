@@ -1,0 +1,74 @@
+.dish-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* margin-top: 5rem; */
+  /* font-family: "Karla", sans-serif; */
+  background-color: #edefee;
+  border-radius: 16px 16px 0 0;
+}
+
+.dish-card__image-box {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dish-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.dish-card__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.dish-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.dish-card__name {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.dish-card__price {
+  color: #ee9972;
+  font-weight: 600;
+}
+
+.dish-card__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-grow: 1;
+}
+
+.dish-card__description {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #495e57;
+}
+
+.dish-card__order-btn {
+  all: unset;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.dish-card__order-btn:hover {
+  color: #495e57;
+}

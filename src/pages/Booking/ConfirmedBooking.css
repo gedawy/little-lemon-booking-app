@@ -1,0 +1,38 @@
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  padding: 3rem 0;
+  min-height: 75vh;
+}
+
+.confirmation__title {
+  font-size: 6.4rem;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 400;
+  color: #495e57;
+}
+
+.confirm-icon {
+  width: 6rem;
+  height: 6rem;
+  color: #f4ce14;
+  align-items: center;
+  background-color: #495e57;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.confirmation__message {
+  font-size: 2rem;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .confirmation__title {
+    line-height: 60%;
+    margin: 2rem 0;
+  }
+}

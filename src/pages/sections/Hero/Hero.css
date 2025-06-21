@@ -1,0 +1,112 @@
+section {
+  margin-bottom: 12rem;
+}
+
+.hero {
+  background-color: #495e57;
+  padding: 3rem 0;
+}
+
+.textbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__textbox {
+  font-family: "Markazi Text", sans-serif;
+  width: 30%;
+}
+
+.hero__textbox-title {
+  font-size: 6.4rem;
+  font-weight: 400;
+  color: #f4ce14;
+}
+
+.hero__textbox-subtitle {
+  margin-top: -2rem;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero__textbox-desc,
+.btn-primary,
+.btn-secondary {
+  font-family: "karla", sans-serif;
+  font-size: 2rem;
+}
+
+.hero__textbox-desc {
+  color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: #f4ce14;
+  border: 1px solid #f4ce14;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.hero__image-box {
+  width: 40rem;
+  height: 40rem;
+  margin-bottom: -10rem;
+}
+
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .hero__textbox {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-bottom: 0rem;
+  }
+
+  .hero__image-box {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .textbox-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero__textbox {
+    width: 100%;
+  }
+
+  .hero__image-box {
+    width: 100%;
+    height: 30rem;
+  }
+}

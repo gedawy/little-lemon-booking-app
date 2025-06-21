@@ -1,0 +1,72 @@
+.testimonial {
+  display: flex;
+  background-color: #edefee;
+  border-radius: 8px;
+}
+
+.testimonial__image-box {
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  display: block;
+}
+
+.testimonial__image {
+  border-radius: 8px;
+  filter: grayscale(100%);
+  /* width: 100%; */
+  height: 100%;
+}
+
+.testimonial__image-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(73, 94, 87, 0.6);
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.testimonial__text {
+  font-size: 1.4rem;
+  color: #495e57;
+}
+
+.testimonial__author {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__image-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .testimonial__image {
+    width: 100%;
+  }
+
+  .testimonial__content {
+    padding-left: 0;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .testimonial__text {
+    font-size: 2rem;
+  }
+}
