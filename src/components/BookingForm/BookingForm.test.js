@@ -17,7 +17,7 @@ describe("Booking Form", () => {
     fireEvent.change(numOfGuests, { target: { value: "0" } });
     fireEvent.blur(numOfGuests);
 
-    const errorMsg = screen.getByTestId("error-guests");
+    const errorMsg = screen.getByTestId("error-text");
     expect(errorMsg).toBeInTheDocument();
     expect(errorMsg).toHaveTextContent(
       "Please enter a number between 1 and 10"

@@ -121,7 +121,7 @@ const BookingForm = ({
           onBlur={handleFieldTouch}
         />
         {touchedFlags.numOfGuests && !isNumOfGuestsValid && (
-          <p className="error-text" data-testid="error-guests">
+          <p className="error-text" data-testid="error-text">
             Please enter a number between 1 and 10
           </p>
         )}
