@@ -69,7 +69,6 @@
   .footer__grid {
     grid-template-columns: 1fr;
     justify-items: start;
-    /* gap: 4rem; */
   }
 
   .footer__nav-title {
